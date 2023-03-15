@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+<body>
+<script>
+  let selectedOption = genres.options[genres.selectedIndex];
+  alert( selectedOption.value );
+  alert( selectedOption.text );
+
+  let newOption = new Option("Классика", "classic");
+  genres.append(newOption);
+
+  newOption.selected = true;
+</script>
+  </body>
+</html>
